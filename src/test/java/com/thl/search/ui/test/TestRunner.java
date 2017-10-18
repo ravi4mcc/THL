@@ -1,24 +1,27 @@
+/*
+ * TestRunner class -- To run the step definition file
+ */
 package com.thl.search.ui.test;
 
 import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
-
+/**
+ * @author rkarre
+ *
+ */
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "Feature",tags= "@Search")
+@CucumberOptions(features = "Feature", tags = "@Search")
 
-public class TestRunner  
-{
-	
-	/*public static WebDriver driver;
-	public  void setup()
-	{
-		System.setProperty("webdriver.chrome.driver", "E://chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.get("https://booking.britz.co.nz/search");
-		driver.manage().window().maximize();
-	}*/
-	
+public class TestRunner {
+
+	/*
+	 * public static WebDriver driver; public void setup() {
+	 * System.setProperty("webdriver.chrome.driver", "E://chromedriver.exe");
+	 * driver = new ChromeDriver();
+	 * driver.get("https://booking.britz.co.nz/search");
+	 * driver.manage().window().maximize(); }
+	 */
 
 }
