@@ -18,32 +18,6 @@ public class BookingSearchCampersPage {
 	//@FindBy(css = " ")
 	//public WebElement dropOffDate;
 	
-
-	@FindBy(xpath = " ")
-	public WebElement pickupLocation;
-	
-
-	@FindBy(xpath = " ")
-	public WebElement dropOffLocation;
-	
-
-	@FindBy(xpath = " ")
-	public WebElement driverLicenseCounty;
-	
-
-	@FindBy(xpath = " ")
-	public WebElement numberOfAdults;
-	
-
-	@FindBy(xpath = " ")
-	public WebElement numberOfChildren;
-	
-
-	@FindBy(xpath = " ")
-	public WebElement SearchCampersButton;
-	
-	List<WebElement> list1;
-	
 	
 	/*	public void initialsetup()
 	{
@@ -82,7 +56,7 @@ public class BookingSearchCampersPage {
 			 	
 		    driver.findElement(By.cssSelector("button[type=submit]")).click();
 			
-	}*/
-	
+	}
+	*/
 
 }

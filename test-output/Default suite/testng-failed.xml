@@ -5,10 +5,7 @@
     <classes>
       <class name="com.thl.search.ui.test.SearchFunctionality">
         <methods>
-          <include name="setUpClass"/>
-          <include name="signup_completed_and_profile_created_successfully"/>
-          <include name="setup"/>
-          <include name="tearDownClass"/>
+          <include name="searchResultsDisplay"/>
         </methods>
       </class> <!-- com.thl.search.ui.test.SearchFunctionality -->
     </classes>
